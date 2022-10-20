@@ -2,25 +2,25 @@
   box-sizing: border-box;
 }
 .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 400px;
+  float: left !important;
+  width: 50% !important;
+  padding: 10px !important;
+  height: 400px !important;
 }
 .row:after {
-  display: table;
+  display: table !important;
 }
 .row{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 img {
-  border-radius: 5%;
+  border-radius: 5% !important;
 }
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 100% !important;
   }
 }
